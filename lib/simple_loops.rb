@@ -16,8 +16,8 @@ end
 
 def output_array(array)
   i=0
-  whild i <array.length do
-    puts array
+  whild i < array.length do
+    puts array[i]
     i += 1
   end
 end
