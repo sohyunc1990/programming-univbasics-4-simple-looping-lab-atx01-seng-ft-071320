@@ -13,3 +13,11 @@ def loop_message_n_times(string, limit)
     i += 1
   end
 end
+
+def output_array(array)
+  i=0
+  whild i <array.length do
+    puts array
+    i += 1
+  end
+end
